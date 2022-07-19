@@ -2198,6 +2198,13 @@ header .circle {
     padding: 0.8rem 1.4rem;
     margin: 0.25rem 0;
   }
+  .qualification__content{
+    justify-content: center;
+    margin-right: 500px;
+  }
+  .qualification__data{
+    margin:0 auto ;
+  }
 }
 
 /* End Responsive */
@@ -2269,12 +2276,16 @@ header .circle {
 .qualification__button.qualification__active{
   color: var(--main-color);
 }
-
+/* 
 @media screen and (max-width:350px) {
 
 
   .qualification__content{
     margin: 0 auto;
+  }
+  .qualification__tabs{
+    margin: 20px;
+
   }
  
 }
@@ -2310,4 +2321,8 @@ header .circle {
 }
 @media screen and (max-width:1024px){
 
-}
+  .qualification__sections{
+    grid-template-columns: auto;
+  }
+
+} */
