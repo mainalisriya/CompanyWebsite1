@@ -2228,14 +2228,18 @@ header .circle {
   font-size: 1.8rem;
   margin-right: var(--mb-0-25);
 }
+
+
 .qualification__data{
 
  
   display: grid;
   grid-template-columns: 1fr max-content 4fr;
   column-gap: 1.5rem;
+  width: 600px;
   margin-left: 550px;
-
+  margin-top: 30px;
+  
 }
 .qualification__title{
   font-size: var(--normal-font-size);
@@ -2264,6 +2268,9 @@ header .circle {
   height: 100%;
   background-color: var(--main-color);
   transform: translate(6px,-7px);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
   
   /* margin-right: 300px; */
 }
@@ -2276,53 +2283,104 @@ header .circle {
 .qualification__button.qualification__active{
   color: var(--main-color);
 }
-/* 
+
 @media screen and (max-width:350px) {
 
-
-  .qualification__content{
-    margin: 0 auto;
-  }
   .qualification__tabs{
     margin: 20px;
 
   }
- 
+  
+
+  .qualification__data{
+    display:block;
+    margin: 0 auto;
+    width: 100vw;
+    margin-bottom: 10px;
+    padding: 10px;
+
+  }
+  .qualification__line{
+    display: none;
+  }
+ .qualification__rounder{
+  display: none;
+ }
 }
 
   
 
 
 @media screen and (max-width:568px) {
-  
-  .qualification__sections{
-    display: grid;
-    grid-template-columns: .6rf;
-    justify-content: center;
+  .qualification__tabs{
+    margin: 20px;
 
-    
-  
-    
-    
   }
+  
+
+  .qualification__data{
+    display:block;
+    margin: 0 auto;
+    width: 100vw;
+    margin-bottom: 10px;
+    padding: 10px;
+
+  }
+  .qualification__line{
+    display: none;
+  }
+ .qualification__rounder{
+  display: none;
+ }
+  
+  
 }
 @media screen and (max-width:768px) {
   
   .qualification__tabs{
-    justify-content: center;
+    margin: 20px;
 
   }
-  .qualification__button{
-    margin: 0 var(--mb-1);
+  
+
+  .qualification__data{
+    display:block;
+    margin: 0 auto;
+    width: 100vw;
+    margin-bottom: 10px;
+    padding: 20px;
+    margin-left: 150px;
+
   }
-  .qualification__sections{
-    grid-template-columns: .5fr;
+  .qualification__line{
+    display: none;
   }
-}
+ .qualification__rounder{
+  display: none;
+ }
+
+} 
+
 @media screen and (max-width:1024px){
+  .qualification__tabs{
+    margin: 20px;
 
-  .qualification__sections{
-    grid-template-columns: auto;
   }
+  
 
-} */
+  .qualification__data{
+    display:block;
+    margin: 0 auto;
+    width: 100vw;
+    margin-bottom: 10px;
+    padding: 20px;
+    margin-left: 150px;
+
+  }
+  .qualification__line{
+    display: none;
+  }
+ .qualification__rounder{
+  display: none;
+ }
+}
