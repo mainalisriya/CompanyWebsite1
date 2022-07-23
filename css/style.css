@@ -2198,13 +2198,13 @@ header .circle {
     padding: 0.8rem 1.4rem;
     margin: 0.25rem 0;
   }
-  .qualification__content{
+  /* .qualification__content{
     justify-content: center;
     margin-right: 500px;
   }
   .qualification__data{
     margin:0 auto ;
-  }
+  } */
 }
 
 /* End Responsive */
@@ -2284,6 +2284,11 @@ header .circle {
   color: var(--main-color);
 }
 
+
+
+  
+
+
 @media screen and (max-width:350px) {
 
   .qualification__tabs{
@@ -2307,6 +2312,29 @@ header .circle {
   display: none;
  }
 }
+@media screen and (max-width:412px){
+
+  .qualification__tabs{
+    margin: 10px;
+
+
+  }
+  
+
+  .qualification__data{
+    display: block;
+    margin-right: 770px;
+    padding: 1.8rem 1.7rem 1.9rem 1.7rem;
+  
+  }
+  .qualification__line{
+    display: none;
+  }
+ .qualification__rounder{
+  display: none;
+ }
+}
+
 
   
 
