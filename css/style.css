@@ -206,7 +206,9 @@ img {
 }
 
 .btn:hover {
-  background-color: #6b44e0;
+  background-color: #ebe9f3;
+  color: #6b44e0;
+
 }
 
 .btn.small {
@@ -419,7 +421,7 @@ header .circle {
 
 /* Services */
 
-.cards {
+.card-wrap {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -482,13 +484,17 @@ header .circle {
   margin-bottom: 1.7rem;
 }
 
-.card .title-sm {
+.card-title {
   line-height: 0.8;
+  color: var(--dark-one);
+  font-weight: 600;
+  font-size: 1.6rem;
 }
 
-.card .text {
+.card-text {
   font-size: 1.15rem;
   margin: 1.8rem 0;
+  color: rgba(119, 119, 119, 0.807);
 }
 
 .services .points1 {
